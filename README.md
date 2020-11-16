@@ -1,2 +1,2 @@
 # PasswordGenerator
-![Screenshot](PasswordGenerator/PasswordGenerator.png?raw=true "PasswordGenerator")
+![Screenshot](PasswordGenerator.png?raw=true "PasswordGenerator")
