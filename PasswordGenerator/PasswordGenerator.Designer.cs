@@ -53,16 +53,16 @@
             // 
             this.passWordTextBox.Location = new System.Drawing.Point(47, 11);
             this.passWordTextBox.Name = "passWordTextBox";
-            this.passWordTextBox.Size = new System.Drawing.Size(174, 20);
+            this.passWordTextBox.Size = new System.Drawing.Size(293, 20);
             this.passWordTextBox.TabIndex = 0;
             this.passWordTextBox.Click += new System.EventHandler(this.PassWordTextBox_Click);
             this.passWordTextBox.TextChanged += new System.EventHandler(this.PassWordTextBox_TextChanged);
             // 
             // createButton
             // 
-            this.createButton.Location = new System.Drawing.Point(151, 112);
+            this.createButton.Location = new System.Drawing.Point(9, 113);
             this.createButton.Name = "createButton";
-            this.createButton.Size = new System.Drawing.Size(95, 22);
+            this.createButton.Size = new System.Drawing.Size(355, 22);
             this.createButton.TabIndex = 7;
             this.createButton.Text = "Generálás";
             this.createButton.UseVisualStyleBackColor = true;
@@ -70,7 +70,7 @@
             // 
             // lengthNumericUpDown
             // 
-            this.lengthNumericUpDown.Location = new System.Drawing.Point(73, 113);
+            this.lengthNumericUpDown.Location = new System.Drawing.Point(316, 89);
             this.lengthNumericUpDown.Maximum = new decimal(new int[] {
             1000,
             0,
@@ -82,7 +82,7 @@
             0,
             0});
             this.lengthNumericUpDown.Name = "lengthNumericUpDown";
-            this.lengthNumericUpDown.Size = new System.Drawing.Size(72, 20);
+            this.lengthNumericUpDown.Size = new System.Drawing.Size(47, 20);
             this.lengthNumericUpDown.TabIndex = 6;
             this.lengthNumericUpDown.Value = new decimal(new int[] {
             25,
@@ -93,7 +93,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(8, 115);
+            this.label1.Location = new System.Drawing.Point(251, 91);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(59, 13);
             this.label1.TabIndex = 14;
@@ -133,9 +133,9 @@
             // 
             this.copyPassButton.BackgroundImage = global::PasswordGenerator.Properties.Resources.Copy;
             this.copyPassButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.copyPassButton.Location = new System.Drawing.Point(219, 10);
+            this.copyPassButton.Location = new System.Drawing.Point(338, 10);
             this.copyPassButton.Name = "copyPassButton";
-            this.copyPassButton.Size = new System.Drawing.Size(27, 22);
+            this.copyPassButton.Size = new System.Drawing.Size(26, 22);
             this.copyPassButton.TabIndex = 8;
             this.copyPassButton.UseVisualStyleBackColor = true;
             this.copyPassButton.Click += new System.EventHandler(this.CopyPassButton_Click);
@@ -146,16 +146,16 @@
             this.md5TextBox.Location = new System.Drawing.Point(47, 37);
             this.md5TextBox.Name = "md5TextBox";
             this.md5TextBox.ReadOnly = true;
-            this.md5TextBox.Size = new System.Drawing.Size(174, 20);
+            this.md5TextBox.Size = new System.Drawing.Size(293, 20);
             this.md5TextBox.TabIndex = 1;
             // 
             // copyMD5Button
             // 
             this.copyMD5Button.BackgroundImage = global::PasswordGenerator.Properties.Resources.Copy;
             this.copyMD5Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.copyMD5Button.Location = new System.Drawing.Point(219, 36);
+            this.copyMD5Button.Location = new System.Drawing.Point(338, 36);
             this.copyMD5Button.Name = "copyMD5Button";
-            this.copyMD5Button.Size = new System.Drawing.Size(27, 22);
+            this.copyMD5Button.Size = new System.Drawing.Size(26, 22);
             this.copyMD5Button.TabIndex = 9;
             this.copyMD5Button.UseVisualStyleBackColor = true;
             this.copyMD5Button.Click += new System.EventHandler(this.CopyMD5Button_Click);
@@ -166,16 +166,16 @@
             this.sha1TextBox.Location = new System.Drawing.Point(47, 64);
             this.sha1TextBox.Name = "sha1TextBox";
             this.sha1TextBox.ReadOnly = true;
-            this.sha1TextBox.Size = new System.Drawing.Size(174, 20);
+            this.sha1TextBox.Size = new System.Drawing.Size(293, 20);
             this.sha1TextBox.TabIndex = 2;
             // 
             // copySHA1Button
             // 
             this.copySHA1Button.BackgroundImage = global::PasswordGenerator.Properties.Resources.Copy;
             this.copySHA1Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.copySHA1Button.Location = new System.Drawing.Point(219, 63);
+            this.copySHA1Button.Location = new System.Drawing.Point(338, 63);
             this.copySHA1Button.Name = "copySHA1Button";
-            this.copySHA1Button.Size = new System.Drawing.Size(27, 22);
+            this.copySHA1Button.Size = new System.Drawing.Size(26, 22);
             this.copySHA1Button.TabIndex = 10;
             this.copySHA1Button.UseVisualStyleBackColor = true;
             this.copySHA1Button.Click += new System.EventHandler(this.CopySHA1Button_Click);
@@ -212,7 +212,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(255, 144);
+            this.ClientSize = new System.Drawing.Size(373, 144);
             this.Controls.Add(this.sha1PreTextBox);
             this.Controls.Add(this.md5PreTextBox);
             this.Controls.Add(this.passPreTextBox);
