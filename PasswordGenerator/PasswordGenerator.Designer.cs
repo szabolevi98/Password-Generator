@@ -51,7 +51,7 @@
             // 
             // passWordTextBox
             // 
-            this.passWordTextBox.Location = new System.Drawing.Point(47, 11);
+            this.passWordTextBox.Location = new System.Drawing.Point(47, 10);
             this.passWordTextBox.Name = "passWordTextBox";
             this.passWordTextBox.Size = new System.Drawing.Size(293, 20);
             this.passWordTextBox.TabIndex = 0;
@@ -60,7 +60,7 @@
             // 
             // createButton
             // 
-            this.createButton.Location = new System.Drawing.Point(9, 113);
+            this.createButton.Location = new System.Drawing.Point(9, 112);
             this.createButton.Name = "createButton";
             this.createButton.Size = new System.Drawing.Size(355, 22);
             this.createButton.TabIndex = 7;
@@ -70,7 +70,7 @@
             // 
             // lengthNumericUpDown
             // 
-            this.lengthNumericUpDown.Location = new System.Drawing.Point(316, 89);
+            this.lengthNumericUpDown.Location = new System.Drawing.Point(316, 88);
             this.lengthNumericUpDown.Maximum = new decimal(new int[] {
             1000,
             0,
@@ -93,7 +93,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(251, 91);
+            this.label1.Location = new System.Drawing.Point(251, 90);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(59, 13);
             this.label1.TabIndex = 14;
@@ -102,7 +102,7 @@
             // numberCheckBox
             // 
             this.numberCheckBox.AutoSize = true;
-            this.numberCheckBox.Location = new System.Drawing.Point(86, 90);
+            this.numberCheckBox.Location = new System.Drawing.Point(86, 89);
             this.numberCheckBox.Name = "numberCheckBox";
             this.numberCheckBox.Size = new System.Drawing.Size(64, 17);
             this.numberCheckBox.TabIndex = 4;
@@ -112,7 +112,7 @@
             // specialCheckBox
             // 
             this.specialCheckBox.AutoSize = true;
-            this.specialCheckBox.Location = new System.Drawing.Point(151, 90);
+            this.specialCheckBox.Location = new System.Drawing.Point(151, 89);
             this.specialCheckBox.Name = "specialCheckBox";
             this.specialCheckBox.Size = new System.Drawing.Size(96, 17);
             this.specialCheckBox.TabIndex = 5;
@@ -122,7 +122,7 @@
             // capitalLetterCheckBox
             // 
             this.capitalLetterCheckBox.AutoSize = true;
-            this.capitalLetterCheckBox.Location = new System.Drawing.Point(10, 90);
+            this.capitalLetterCheckBox.Location = new System.Drawing.Point(10, 89);
             this.capitalLetterCheckBox.Name = "capitalLetterCheckBox";
             this.capitalLetterCheckBox.Size = new System.Drawing.Size(72, 17);
             this.capitalLetterCheckBox.TabIndex = 3;
@@ -133,7 +133,7 @@
             // 
             this.copyPassButton.BackgroundImage = global::PasswordGenerator.Properties.Resources.Copy;
             this.copyPassButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.copyPassButton.Location = new System.Drawing.Point(338, 10);
+            this.copyPassButton.Location = new System.Drawing.Point(338, 9);
             this.copyPassButton.Name = "copyPassButton";
             this.copyPassButton.Size = new System.Drawing.Size(26, 22);
             this.copyPassButton.TabIndex = 8;
@@ -143,7 +143,7 @@
             // 
             // md5TextBox
             // 
-            this.md5TextBox.Location = new System.Drawing.Point(47, 37);
+            this.md5TextBox.Location = new System.Drawing.Point(47, 36);
             this.md5TextBox.Name = "md5TextBox";
             this.md5TextBox.ReadOnly = true;
             this.md5TextBox.Size = new System.Drawing.Size(293, 20);
@@ -153,7 +153,7 @@
             // 
             this.copyMD5Button.BackgroundImage = global::PasswordGenerator.Properties.Resources.Copy;
             this.copyMD5Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.copyMD5Button.Location = new System.Drawing.Point(338, 36);
+            this.copyMD5Button.Location = new System.Drawing.Point(338, 35);
             this.copyMD5Button.Name = "copyMD5Button";
             this.copyMD5Button.Size = new System.Drawing.Size(26, 22);
             this.copyMD5Button.TabIndex = 9;
@@ -163,7 +163,7 @@
             // 
             // sha1TextBox
             // 
-            this.sha1TextBox.Location = new System.Drawing.Point(47, 64);
+            this.sha1TextBox.Location = new System.Drawing.Point(47, 63);
             this.sha1TextBox.Name = "sha1TextBox";
             this.sha1TextBox.ReadOnly = true;
             this.sha1TextBox.Size = new System.Drawing.Size(293, 20);
@@ -173,7 +173,7 @@
             // 
             this.copySHA1Button.BackgroundImage = global::PasswordGenerator.Properties.Resources.Copy;
             this.copySHA1Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.copySHA1Button.Location = new System.Drawing.Point(338, 63);
+            this.copySHA1Button.Location = new System.Drawing.Point(338, 62);
             this.copySHA1Button.Name = "copySHA1Button";
             this.copySHA1Button.Size = new System.Drawing.Size(26, 22);
             this.copySHA1Button.TabIndex = 10;
@@ -183,7 +183,7 @@
             // 
             // passPreTextBox
             // 
-            this.passPreTextBox.Location = new System.Drawing.Point(10, 11);
+            this.passPreTextBox.Location = new System.Drawing.Point(10, 10);
             this.passPreTextBox.Name = "passPreTextBox";
             this.passPreTextBox.ReadOnly = true;
             this.passPreTextBox.Size = new System.Drawing.Size(38, 20);
@@ -192,7 +192,7 @@
             // 
             // md5PreTextBox
             // 
-            this.md5PreTextBox.Location = new System.Drawing.Point(10, 37);
+            this.md5PreTextBox.Location = new System.Drawing.Point(10, 36);
             this.md5PreTextBox.Name = "md5PreTextBox";
             this.md5PreTextBox.ReadOnly = true;
             this.md5PreTextBox.Size = new System.Drawing.Size(38, 20);
@@ -201,7 +201,7 @@
             // 
             // sha1PreTextBox
             // 
-            this.sha1PreTextBox.Location = new System.Drawing.Point(10, 64);
+            this.sha1PreTextBox.Location = new System.Drawing.Point(10, 63);
             this.sha1PreTextBox.Name = "sha1PreTextBox";
             this.sha1PreTextBox.ReadOnly = true;
             this.sha1PreTextBox.Size = new System.Drawing.Size(38, 20);
@@ -212,7 +212,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(373, 144);
+            this.ClientSize = new System.Drawing.Size(373, 143);
             this.Controls.Add(this.sha1PreTextBox);
             this.Controls.Add(this.md5PreTextBox);
             this.Controls.Add(this.passPreTextBox);
